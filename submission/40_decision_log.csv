@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D1,2026-09-28,Hộp M2 và các M_only ở mid có phải lỗi annotator không?,Không sửa nhãn L. Escalate cho ai_team.,L và R không có các hộp này. Gộp chúng vào SPURIOUS của người sẽ làm sai bảng mid.,escalated
+D2,2026-09-28,Có rework L1 L2 L8 R5 trên adasind_258420.jpg không?,Giữ export đã khóa. Lock rework bằng cùng file.,Các hộp sát ngưỡng 40 px. Sửa lúc này không còn vòng QA mù. delta.md ghi số không đổi.,kept
+D3,2026-09-28,Polygon free_space của parking có phủ lối xe giữa bãi không?,Giữ polygon ở dải nhựa mép dưới và ghi ca nghi trong observations.,Ảnh không có nhãn chuẩn. Người soát cần đọc observations thay vì đoán ý người vẽ.,kept
+D4,2026-09-28,Self-QC báo thiếu raw_fisheye thì có tạo lại task không?,Không tạo lại. Tick checklist sau khi xác nhận tên task trên CVAT.,Export từ job không ghi tên task. Task vẫn là Day11 · ADASIND · B4-edge · raw_fisheye.,kept

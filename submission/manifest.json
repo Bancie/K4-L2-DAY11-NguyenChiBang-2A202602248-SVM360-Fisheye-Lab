@@ -3,7 +3,7 @@
     {
       "file": "00_setup/doctor.txt",
       "lines": 5,
-      "sha256": "ad6db9adabda1d0105744ad133d71861cf7bc744aa19ffd0efa4c5be5d0a8932"
+      "sha256": "09a2e98e9cf5f0b5a2ad3bfbbc761beb489c69dd8ae1e84e3aad2fa0ceea009a"
     },
     {
       "file": "00_setup/mode.json",
@@ -127,73 +127,69 @@
     {
       "file": "r3_diag/zone_table.md",
       "lines": 14,
-      "sha256": "edb6cee9542f0d293b97b640f75237319b9496bcfdae8a323945ecad26634baf"
+      "sha256": "e1d5b6eb53026997d8e7af4c43482a3f1da6943bf1e467f30a54dc893c828d52"
+    },
+    {
+      "file": "rework/annotations-v2.xml",
+      "lines": 388,
+      "sha256": "5d57aebd59b4f871086330acfe5e5e3257579c552ecf453f41ac8f892dbf28c8"
+    },
+    {
+      "file": "rework/lock2.txt",
+      "lines": 9,
+      "sha256": "4416b1e2878914743d925d990765a4c59bc8010f83c63d694f5d4de29b750f41",
+      "locked_at": "2026-09-28T21:06:11+07:00"
+    },
+    {
+      "file": "rework/delta.md",
+      "lines": 13,
+      "sha256": "72242af7f8e04e5cc630ff9db447ec2bdf3f3b11f75cd46841bd5e6716b1ff5f"
     },
     {
       "file": "findings.csv",
       "lines": 30,
-      "sha256": "c2d858aa2f3c0d1acf6df5351f941ef89bdfe68289a718de5c848223dea8ba78"
+      "sha256": "eb1830a4efeada4ee8a2130d9efe7a9039cff25227f043bfdba3e5ef3397b217"
+    },
+    {
+      "file": "10_error_card.md",
+      "lines": 35,
+      "sha256": "bfb81623dea26ef5dcedf719f6963e5ed087f53d111e92064ec6d21bee5fd600"
     },
     {
       "file": "20_guideline_patch.md",
       "lines": 7,
-      "sha256": "6ed6f6b0bbe96bbc3cfadb11d8cad28a3875d2f517cdc300552b5b9e4cf81005"
+      "sha256": "8773ee6d4d9e64cb95c722ca2dccc2223c745bb1ba610b8d2c6b42afc41a5cc6"
     },
     {
       "file": "30_escalation_ticket.md",
       "lines": 9,
-      "sha256": "94c15fab6fa07d04911253a28db098d3259c358b9e9b698a0d8051cb6f553243"
+      "sha256": "d9760544bc15c485607fca1f76078ac8ba13b2e2ef63e2f986ee89506f89ef7a"
     },
     {
       "file": "40_decision_log.csv",
-      "lines": 1,
-      "sha256": "f942315af3c8578e85481ecaa83d5ce59d7c75f58fcecc19c057b25b49428d74"
+      "lines": 5,
+      "sha256": "40990c4a8f36b8c46814529c8ffc522ede8ea701cadcabe1d3fee7ad9b99a5da"
     },
     {
       "file": "45_review_plan.md",
       "lines": 16,
-      "sha256": "2e17b6e20245302692a71b1778393d8ce6e43fb4b40e774e1b1281cf4a37dae4"
+      "sha256": "33b60cbc3f4f5f97d99bf2c2d526f59b9b2bbd7553450f077ec90a0e7c364d27"
     },
     {
       "file": "45_sampling_plan.csv",
       "lines": 9,
-      "sha256": "442d97012336501122d5b0d3a4f88a4794dbc9a44a0cddd1c663e082f02fd6bf"
+      "sha256": "155e14408695326019399632cd4fd24f61eb2604119dd9d864e60a7a0ff42ed8"
     },
     {
       "file": "46_gold_set_plan.md",
       "lines": 18,
-      "sha256": "04437be5335c544d5a175329de6ba89676297bf8be341e961d3ad52530d34113"
+      "sha256": "47e2c7d4a9548e1a60b61beca03d0e37666e1bc81dfefd19274881d1213976ee"
     },
     {
       "file": "50_exit_ticket.md",
       "lines": 11,
-      "sha256": "455a64f9ffef79d6da339ad4272a3c912e9ac0a02bebb077dacd193dbf35228f"
+      "sha256": "4275ac3d7a19e43b7955e6e4b8586b423599bcbbd00b63278a812be51d6082e1"
     }
   ],
-  "failed_gates": [
-    "Dòng 12: r3_diag thiếu why, severity, owner, action",
-    "Dòng 13: r3_diag thiếu why, severity, owner, action",
-    "Dòng 14: r3_diag thiếu why, severity, owner, action",
-    "Dòng 15: r3_diag thiếu why, severity, owner, action",
-    "Dòng 16: r3_diag thiếu why, severity, owner, action",
-    "Dòng 17: r3_diag thiếu why, severity, owner, action",
-    "Dòng 18: r3_diag thiếu why, severity, owner, action",
-    "Dòng 19: r3_diag thiếu why, severity, owner, action",
-    "… còn 11 lỗi dòng findings nữa (sửa các dòng trên rồi chạy lại)",
-    "decision log cần ≥4 entry và ≥1 escalated",
-    "45_sampling_plan.csv chưa phải bảng phân bổ hợp lệ",
-    "Còn TODO trong r3_diag/zone_table.md",
-    "Thiếu file rework/annotations-v2.xml",
-    "Thiếu file rework/lock2.txt",
-    "Thiếu file rework/delta.md",
-    "Thiếu file 10_error_card.md (chạy python3 lab11.py card)",
-    "Còn TODO trong 20_guideline_patch.md",
-    "Còn TODO trong 30_escalation_ticket.md",
-    "Còn TODO trong 45_review_plan.md",
-    "Còn TODO trong 45_sampling_plan.csv",
-    "Còn TODO trong 46_gold_set_plan.md",
-    "Còn TODO trong 50_exit_ticket.md",
-    "doctor còn lỗi; chạy python3 lab11.py doctor lại sau khi sửa môi trường",
-    "screenshots cần ≥2 ảnh"
-  ]
+  "failed_gates": []
 }

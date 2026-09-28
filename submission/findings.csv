@@ -9,22 +9,22 @@ r1_craft,B4-edge,adasind_258420.jpg,L8+R5,na,BOX_GEOMETRY,,,,,,,,
 r2_qa,B4-edge,adasind_258420.jpg,L1,L_only,SPURIOUS,,,qa,R01,Hộp Pedestrian khoảng 51 px ở cụm xa,,,v1.0.0,
 r2_qa,B4-edge,adasind_258420.jpg,L2,L_only,SPURIOUS,,,qa,R03,Hộp Bike khoảng 52 px cùng cụm xa,,,v1.0.0,
 r2_qa,B4-edge,adasind_258420.jpg,L8,L_only,BOX_GEOMETRY,,,qa,R02,Hộp Car khoảng 44 px chưa bám phần nhìn thấy,,,v1.0.0,
-r3_diag,B4-edge,adasind_236370.jpg,M2,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,L6+R8,LR_noM,MISSING,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,L5+R4,LR_noM,MISSING,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,L10+R1,LR_noM,MISSING,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,L4+R3,LR_noM,MISSING,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,L1,L_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,L2,L_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,L8+M6,LM_noR,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,R5,R_only,MISSING,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,M3,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,M4,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,M5,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,M7,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,M8,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,M10,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_258420.jpg,M11,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_310008.jpg,L3+R1,LR_noM,MISSING,,,,,,,,
-r3_diag,B4-edge,adasind_310008.jpg,M6,M_only,SPURIOUS,,,,,,,,
-r3_diag,B4-edge,adasind_310008.jpg,M7,M_only,SPURIOUS,,,,,,,,
+r3_diag,B4-edge,adasind_236370.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,submission/screenshots/258420-frame.png,escalate,v1.0.0,Cụm hộp chỉ model có ở mid
+r3_diag,B4-edge,adasind_258420.jpg,L6+R8,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,L và R cùng thấy; model bỏ
+r3_diag,B4-edge,adasind_258420.jpg,L5+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,L và R cùng thấy; model bỏ
+r3_diag,B4-edge,adasind_258420.jpg,L10+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,L và R cùng thấy; model bỏ
+r3_diag,B4-edge,adasind_258420.jpg,L4+R3,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,L và R cùng thấy; model bỏ
+r3_diag,B4-edge,adasind_258420.jpg,L1,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R01,local_quality_conflicts.csv,rework,v1.0.0,Pedestrian khoảng 51 px chỉ L có
+r3_diag,B4-edge,adasind_258420.jpg,L2,L_only,SPURIOUS,E1_annotator_error,P1,annotator,R03,local_quality_conflicts.csv,rework,v1.0.0,Bike khoảng 52 px chỉ L có
+r3_diag,B4-edge,adasind_258420.jpg,L8+M6,LM_noR,SPURIOUS,E1_annotator_error,P1,annotator,R02,local_quality_conflicts.csv,rework,v1.0.0,Car khoảng 44 px không khớp reference
+r3_diag,B4-edge,adasind_258420.jpg,R5,R_only,MISSING,E1_annotator_error,P1,annotator,R02,local_quality_conflicts.csv,rework,v1.0.0,Reference có Car mid mà L không ghép được
+r3_diag,B4-edge,adasind_258420.jpg,M3,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_258420.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_258420.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_258420.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_258420.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_258420.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_258420.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_310008.jpg,L3+R1,LR_noM,MISSING,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,L và R cùng thấy; model bỏ
+r3_diag,B4-edge,adasind_310008.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có
+r3_diag,B4-edge,adasind_310008.jpg,M7,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,model_compare.md,keep_with_reason,v1.0.0,Hộp chỉ model có

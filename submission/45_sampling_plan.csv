@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,40,thấp,Làn thẳng, vật lớn ở giữa ảnh, ít méo hơn hai camera hông
+front,hard,15,cao,Vật ở rìa và gần seam với camera trái/phải, dễ thành hai box
+rear,normal,30,trung bình,Đường phía sau ít vật cắt ngang hơn hai bên
+rear,hard,20,cao,Xe bám đuôi và thân xe ego che đáy ảnh, giống ego_body của lab
+left,normal,25,trung bình,Đỗ xe và lối đi bên hông khi cảnh thưa
+left,hard,25,cao,Seam trước-trái, xe máy sát rìa, méo fisheye mạnh
+right,normal,25,trung bình,Cùng vai trò với left nhưng lấy frame khác thời điểm
+right,hard,20,cao,Seam trước-phải và vật bị cắt bởi vòng kính
